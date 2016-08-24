@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+}
+
+.pr14 {
+  padding-right: 14px;
+}
+
+.clear {
+  position: relative;
+  right: 14px;
+  color: grey;
+}
+
+.clear:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 17px;
+}

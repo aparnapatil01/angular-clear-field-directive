@@ -1,0 +1,17 @@
+{
+  "name": "angularClearFieldDirective",
+  "authors": [
+    "aparnap <aparna.well@gmail.com>"
+  ],
+  "description": "Clears input field",
+  "main": "script.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
