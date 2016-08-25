@@ -3,17 +3,17 @@
 }
 
 .pr14 {
-  padding-right: 14px;
+  padding-right: 17px;
 }
 
 .clear {
-  position: relative;
-  right: 14px;
+  position: absolute;
+  right: 7px;
   color: grey;
+  font-size: 17px;
 }
 
 .clear:hover {
   cursor: pointer;
   color: blue;
-  font-size: 17px;
 }
