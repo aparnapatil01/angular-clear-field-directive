@@ -4,12 +4,13 @@
 }
 
 .pr14 {
-  padding-right: 17px;
+  padding-right: 20px!important;
 }
 
 .clear {
   position: absolute;
   right: 7px;
+  top:2px;
   color: grey;
   font-size: 17px;
 }
