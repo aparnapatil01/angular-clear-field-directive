@@ -14,7 +14,7 @@ clearFieldDirective.directive('clearField', function($compile) {
 	    .addClass('pr14')
 	    .after('<span class="clear">×</span>');
 
-	    var clearInputElement = angular.element(document.querySelector(".clear"));
+	    var clearInputElement = angular.element(element.next());
 
 	    clearInputElement.bind('click', function() {
 	      scope.$apply(scope.model = "");
