@@ -10,7 +10,7 @@ clearFieldDirective.directive('clearField', function($compile) {
 	    // Add wrapper to the element
 	    scope.model = (scope.model == undefined) ? "" : scope.model;
 
-	    element.wrap('<span class="wrapper"></span>')
+	    element.wrap('<div class="wrapper"></div>')
 	    .addClass('pr14')
 	    .after('<span class="clear">×</span>');
 
