@@ -7,6 +7,7 @@ clearFieldDirective.directive('clearField', function($compile) {
 	    model: '=ngModel'
 	  },
 	  link: function(scope, element, attr) {
+	  	
 	    // Add wrapper to the element
 	    scope.model = (scope.model == undefined) ? "" : scope.model;
 
