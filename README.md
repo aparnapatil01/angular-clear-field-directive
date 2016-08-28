@@ -3,9 +3,8 @@
 
 This repo consists of an angularJs directive which is used to clear the input fields.
 
-## Install
-You can install this package using bower.
-
+## Installations
+### Bower
 
 ```
 bower install angular-clear-field
@@ -15,6 +14,17 @@ Then add below `<script>` and `<link>` tag to your `index.html` file
 <script src="bower_components/angularClearFieldDirective/script.js"></script>
 <link rel="stylesheet" href="bower_components/angularClearFieldDirective/css/custom.css">
 ```
+
+### Npm
+```
+npm install angular-clear-field
+```
+Then add below `<script>` and `<link>` tag to your index.html file
+```html
+<script src="node_modules/angular-clear-field/script.js"></script>
+<link rel="stylesheet" href="node_modules/angular-clear-field/css/custom.css">
+```
+
 ## Inject Module Dependency
 Inject `directive.clearField` module
 ```javascript

@@ -1,0 +1,25 @@
+{
+  "name": "angular-clear-field",
+  "version": "1.0.0",
+  "description": "Clears input field",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparnapatil01/angular-clear-field-directive.git"
+  },
+  "keywords": [
+    "angular",
+    "clear",
+    "input",
+    "field"
+  ],
+  "author": "aparnap <aparna.well@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparnapatil01/angular-clear-field-directive/issues"
+  },
+  "homepage": "https://github.com/aparnapatil01/angular-clear-field-directive#readme"
+}
